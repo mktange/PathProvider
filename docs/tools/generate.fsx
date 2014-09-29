@@ -1,22 +1,22 @@
-﻿// --------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------
 // Builds the documentation from `.fsx` and `.md` files in the 'docs/content' directory
 // (the generated documentation is stored in the 'docs/output' directory)
 // --------------------------------------------------------------------------------------
 
 // Binaries that have XML documentation (in a corresponding generated XML file)
-let referenceBinaries = [ "##ProjectName##.dll" ]
+let referenceBinaries = [ "PathProvider.dll" ]
 // Web site location for the generated documentation
-let website = "/##ProjectName##"
+let website = "/PathProvider"
 
-let githubLink = "http://github.com/##GitHome##/##GitName##"
+let githubLink = "http://github.com/mktange/PathProvider"
 
 // Specify more information about your project
 let info =
-  [ "project-name", "##ProjectName##"
-    "project-author", "##Author##"
-    "project-summary", "##Summary##"
+  [ "project-name", "PathProvider"
+    "project-author", "mktange@gmail.com"
+    "project-summary", "Type Provider for navigating through your file system."
     "project-github", githubLink
-    "project-nuget", "http://nuget.com/packages/##ProjectName##" ]
+    "project-nuget", "http://nuget.com/packages/PathProvider" ]
 
 // --------------------------------------------------------------------------------------
 // For typical project, no changes are needed below

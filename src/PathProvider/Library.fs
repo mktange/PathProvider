@@ -1,4 +1,4 @@
-﻿namespace FSharp.ProjectTemplate
+namespace PathProvider
 
 // Documentation for my library
 //
